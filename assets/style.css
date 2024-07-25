@@ -3,14 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    font-size: 20px;
-}
+/* html{
+  font-size: 20px;
+} */
 
-#pooh{
+.wrapper{
   margin: 20px 100px;
+  font-size: 24px;
+}
+#pooh h1{
+   color: red;
+   /* font-size: 2rem;  */
+   /* 16px  */
+}
+#pooh {
+  height: 200px;
+}
+#pooh h4{
+  height: 50%;
+  color: red;
 }
 
-#pooh h1{
-   color: red;  
+.parent .pr .inner h2{
+  font-size: 30px;
+  color: blue;
 }
+
+#parent  h2{
+  font-size: 30px;
+  color: red;
+}
+
+
+h1{
+   color: rgb(30, 0, 255);  
+}
+
+/* units 
+  px,
+  rem,
+  em,
+  %
+
+*/
